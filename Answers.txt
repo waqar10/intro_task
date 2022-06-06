@@ -1,0 +1,30 @@
+1) Explain the difference between an abstract class and an interface.
+   interface is used with keyword interface while abstract is used with keyword abstract, 
+   data members for interace are public by default while in abstract there are no restrictions
+   interface is static to access data members using interface name while in abstract we can have static and non-static variables
+   we have final variables for interface while in abstract we can have final and non final varibles.
+
+2) What is the purpose of getters and setters in a class?
+   Getters are used to acces the  properties of an object or value of a variable while Setters are used update them.
+
+3) Explain the purpose of black box testing
+   I don't have any idea about Black box testing
+
+4) In your opinion what are the benefits of test cases
+   It gives us coverage to meet all requirements, improves quaity of a software and reduce maintance of a software.
+
+5) What is an error first callback, and what is the reason for this pattern existing?
+   Error first callback is a function with the first argument of the function is reserved for error, if a function returns error it returns error object 
+   else it will return data of a function.
+
+6) Explain the difference between fs.readSync and fs.read (File System module in Nodejs)
+   fs.readSync() is synchoronous and blocks the execution until it is finished while fs.read() is asynchoronous and returns immediately running the function in background.
+
+7) What tasks do you feel should be done asynchronously?
+  Those tasks which result can be waited or which can run in the background if it takes more time should be done asynchronously or which return value might be needed for another function execution.
+
+8) (a) is a trivial example of callback hell
+   Look into load_contents.js
+
+Section 5
+   Look into FruitBasket folder
